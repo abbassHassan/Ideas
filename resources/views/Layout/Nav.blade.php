@@ -19,7 +19,8 @@
                     @auth
                     @if (Auth::user()->is_admin)
                         <li class="nav-item">
-                            <a class="{{(Route::is('admin.dashboard'))? 'active': ''}} nav-link" href="{{route('admin.dashboard')}}"> Admin Dashboard </a>
+                            <a class="{{(Route::is('admin.dashboard'))? 'active': ''}} nav-link" href="{{route('admin.dashboardgit remote add origin <repository-url>
+                                ')}}"> Admin Dashboard </a>
                         </li> 
                     @endif
                         <li class="nav-item">

@@ -19,7 +19,6 @@
   </div>
   <div class="col-3">
       @include('Shared.Search-Bar')
-      @include('Shared.Follow-Box')
   </div>
 </div>
 @endsection
